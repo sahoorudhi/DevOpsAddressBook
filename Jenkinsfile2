@@ -16,7 +16,7 @@ pipeline {
   }
     stage ('Build the Docker Image of my package') {
       steps {
-       sh 'docker build -t cbabu85/addressbook.war .'
+       sh 'docker build -t addressbook.war .'
         }
       }
     }
